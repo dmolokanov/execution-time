@@ -1,0 +1,13 @@
+[package]
+name = "execution-time-proc"
+version = "0.1.0"
+authors = ["dmolokanov <dmolokanov@users.noreply.github.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0"
+syn = { version = "1.0", features = ["full"] }
+execution-time-core = { path = "../execution-time-core" }

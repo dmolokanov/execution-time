@@ -1,0 +1,12 @@
+[package]
+name = "execution-time"
+version = "0.1.0"
+authors = ["dmolokanov <dmolokanov@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+execution-time-proc = { path = "../execution-time-proc" }
+execution-time-core = { path = "../execution-time-core" }
+
+[[example]]
+name = "simple"

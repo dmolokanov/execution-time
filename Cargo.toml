@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "execution-time",
+  "execution-time-core",
+  "execution-time-proc"
+]
